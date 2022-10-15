@@ -77,6 +77,10 @@ classdef stplot < handle
           r = obj.handle;
       end
       
+      function addText(obj,position,txt)
+          addText(obj.handle,position,txt)
+      end
+      
    end
    
 end
